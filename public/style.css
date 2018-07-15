@@ -1,0 +1,129 @@
+body{
+  background-color: black;
+  color: white;
+}
+h1 {
+  margin-left: 650;
+  margin-right: 350;
+  margin-top: 20px;
+}
+
+ul{
+  list-style-type: none;
+  margin-left: 150;
+  margin-right: 350;
+  width:1800px;
+}
+
+.label {
+display: inline;
+width:80px;
+height:20px;
+size:5px;
+padding:10px;
+text-justify:auto;
+margin-top: 0;
+margin-bottom: 0;
+margin-right: 10px;
+}
+
+.mic {
+  width:140px;
+  height:20px;
+  size:10px;
+  padding:10px;
+  text-justify:auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.tapeId{
+  width:140px;
+  height:20px;
+  size:10px;
+  padding:10px;
+  text-justify:auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: relative;
+  left:170px;
+  bottom:575px;
+}
+
+.venueName{
+  width:140px;
+  height:20px;
+  size:10px;
+  padding:10px;
+  text-justify:auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: relative;
+  left:310px;
+  bottom:1150px;
+}
+
+.volume{
+  width:140px;
+  height:20px;
+  size:10px;
+  padding:10px;
+  text-justify:auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: relative;
+  left:460px;
+  bottom:1725px;
+}
+
+.tapeA{
+  width:140px;
+  height:20px;
+  size:10px;
+  padding:10px;
+  text-justify:auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: relative;
+  left:630px;
+  bottom:2300px;
+}
+
+.tapeB{
+  width:140px;
+  height:20px;
+  size:10px;
+  padding:10px;
+  text-justify:auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: relative;
+  left:800px;
+  bottom:2875px;
+}
+
+.tapeC{
+  width:140px;
+  height:20px;
+  size:10px;
+  padding:10px;
+  text-justify:auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: relative;
+  left:970px;
+  bottom:3450px;
+}
+
+.marketPercent{
+  width:140px;
+  height:20px;
+  size:10px;
+  padding:10px;
+  text-justify:auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: relative;
+  left:1120px;
+  bottom:4025px;
+}

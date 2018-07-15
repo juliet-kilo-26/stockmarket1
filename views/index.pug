@@ -1,0 +1,47 @@
+html
+  head
+    link(rel="stylesheet"  href="/public/style.css")
+    title=title
+  body
+    h1= title
+    ul
+      li(class="label") Market Identifier Code
+      li(class="label") Tape Identification
+      li(class="label") Venue Name
+      li(class="label") Amount of Traded Shares
+      li(class="label") Tape A Traded Shares
+      li(class="label") Tape B Traded Shares
+      li(class="label") Tape C Traded Shares
+      li(class="label") Market Percent
+    ul
+      -for(var i=0; i<market_json.length; i++){
+          li(class="mic")=market_json[i].mic
+      -}
+    ul
+      -for(var i=0; i<market_json.length; i++){
+          li(class="tapeId")=market_json[i].venueName
+      -}
+    ul
+      -for(var i=0; i<market_json.length; i++){
+          li(class="venueName")=market_json[i].venueName
+      -}
+    ul
+      -for(var i=0; i<market_json.length; i++){
+          li(class="volume")=market_json[i].volume
+      -}
+    ul
+      -for(var i=0; i<market_json.length; i++){
+          li(class="tapeA")=market_json[i].tapeA
+      -}
+    ul
+      -for(var i=0; i<market_json.length; i++){
+          li(class="tapeB")=market_json[i].tapeB
+      -}
+    ul
+      -for(var i=0; i<market_json.length; i++){
+          li(class="tapeC")=market_json[i].tapeC
+      -}
+    ul
+      -for(var i=0; i<market_json.length; i++){
+          li(class="marketPercent")=market_json[i].marketPercent
+      -}
